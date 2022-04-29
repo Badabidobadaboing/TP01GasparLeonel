@@ -10,7 +10,6 @@ public class Numero_Par {
 public Numero_Par() {}
 	
 public Numero_Par(int numero1) {
-		
 		this.numero1=numero1;
 	}
 
@@ -26,10 +25,12 @@ public String numeroPar() {
 		
 		if(this.numero1%2==0) {
 			
-			return "par";
+			return "Es par";
 		}
 		else {
 			return "No es par";
-		}		
+		}
+			
 	}
+
 }

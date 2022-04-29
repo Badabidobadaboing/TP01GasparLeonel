@@ -5,14 +5,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class Mes_2 {
 
-
 private int numero1;
-	
 	
 public Mes_2() {}
 	
 public Mes_2(int numero1) {
-		
 		this.numero1=numero1;
 	}
 
@@ -39,7 +36,7 @@ public String CalculoMes2() {
 		case 10: return "El dato ingresado es un mes";
 		case 11: return "El dato ingresado es un mes";
 		case 12: return "El dato ingresado es un mes";
-		default:return"no corresponde a un mes";	
+		default:return "No corresponde a un mes";
 		}
 	}
 }
