@@ -28,7 +28,7 @@ public String CalculoMes() {
 			return "si es un mes del año";
 		}
 		else {
-			return "no pertenece a un mes del año";
+			return "no corresponde a un mes del año";
 		}
 	}
 }
